@@ -56,4 +56,5 @@ with open(filename, mode="a", newline="") as file:
     row = [today] + responses
     writer.writerow(row)
 
+input("\nPress Enter to close this window.")
 
